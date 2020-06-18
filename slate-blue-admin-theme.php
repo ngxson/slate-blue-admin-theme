@@ -10,8 +10,8 @@ Author URI: https://ngxson.com/
 */
 
 function slate_files() {
-  wp_enqueue_style( 'slate-admin-theme', plugins_url('css/slate.css', __FILE__), array(), '1.2.10' );
-  wp_enqueue_script( 'slate', plugins_url( 'js/slate.js', __FILE__ ), array( 'jquery' ), '1.2.10' );
+  wp_enqueue_style( 'slate-admin-theme', plugins_url('css/slate.css', __FILE__), array(), '1.2.11' );
+  wp_enqueue_script( 'slate', plugins_url( 'js/slate.js', __FILE__ ), array( 'jquery' ), '1.2.11' );
 }
 add_action( 'admin_enqueue_scripts', 'slate_files' );
 
@@ -40,7 +40,6 @@ function slate_colors() {
 			.menu-top-first.menu-icon-dashboard > .wp-menu-name {
 				font-weight: normal !important;
 				color: white !important;
-				height: 1em;
   			overflow: hidden;
   			padding-top: 4px !important;
   			padding-left: 0 !important;
