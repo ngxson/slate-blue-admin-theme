@@ -5,7 +5,7 @@ Plugin Name: Slate Blue Admin Theme
 Plugin URI: https://ngxson.com/
 Description: A clean, simplified WordPress Admin theme
 Author: ngxson
-Version: 1.0.0
+Version: 1.0.1
 Author URI: https://ngxson.com/
 */
 
