@@ -85,4 +85,10 @@ jQuery(document).ready(function( $ ) {
 		});
 	}
 
+	// Remove dash
+	$('a.row-title').each(function() {
+		var a = $(this);
+		var strong = a.parent();
+		strong.html(a.prop('outerHTML'));
+	});
 });

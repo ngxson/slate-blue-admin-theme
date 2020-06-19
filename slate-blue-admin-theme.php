@@ -5,13 +5,13 @@ Plugin Name: Slate Blue Admin Theme
 Plugin URI: https://ngxson.com/
 Description: A clean, simplified WordPress Admin theme
 Author: ngxson
-Version: 1.0.1
+Version: 1.0.2
 Author URI: https://ngxson.com/
 */
 
 function slate_files() {
-  wp_enqueue_style( 'slate-admin-theme', plugins_url('css/slate.css', __FILE__), array(), '1.2.11' );
-  wp_enqueue_script( 'slate', plugins_url( 'js/slate.js', __FILE__ ), array( 'jquery' ), '1.2.11' );
+  wp_enqueue_style( 'slate-admin-theme', plugins_url('css/slate.css', __FILE__), array(), '1.2.12' );
+  wp_enqueue_script( 'slate', plugins_url( 'js/slate.js', __FILE__ ), array( 'jquery' ), '1.2.12' );
 }
 add_action( 'admin_enqueue_scripts', 'slate_files' );
 
